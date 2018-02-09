@@ -24,6 +24,15 @@ def CalculateComplexity(simple_count, complex_count, words):
 	corp_complexity = ccount / scount
 	return corp_complexity
 
+def CalculateAccuracy(s_complexity,c_complexity):
+	acc = 0
+	for i in range(0, len(s_complexity)):
+		if s_complexity[i] > c_complexity[i]:
+			acc += 1
+
+	return (acc / i) * 100		
+
+
 # Obtain Count Dictionary from simple_count.txt
 sc = open("simple_count.txt", "r+")
 st = sc.read()
@@ -85,9 +94,15 @@ for i in range(0, len(complex_sentences)):
 	words = new_sentence.split(" ")
 	c_complexity.append(CalculateComplexity(simple_count,complex_count,words))
 
-print("Simple", "\t\t\t", "Complex")
+print("Simple Sentence", "\t\t\t", "Complex Sentence")
 for i in range(0, len(s_complexity)):
 	print(s_complexity[i], "\t", c_complexity[i])
+
+print("\n")
+
+print("Testing Currently for: ", len(s_complexity), "sentences.")
+print("\n")
+print("Accuracy: ", CalculateAccuracy(s_complexity,c_complexity),"%")
 
 
 
