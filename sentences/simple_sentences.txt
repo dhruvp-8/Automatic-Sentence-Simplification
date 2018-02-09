@@ -1,0 +1,2 @@
+{ 0: 'The cat sat on the mat', 1: 'John played golf. John was the CEO of the company', 2: 'A message is sent to the operator that requests the correct tape volume', 3: 'The brain disease last October struck him down', 4: 'Later in his life, dukas became well known as a music teacher, with many famous students'}
+

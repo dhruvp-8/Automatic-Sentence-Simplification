@@ -1,0 +1,1 @@
+{ 0: 'The cat perched on the mat', 1: 'John, who was the CEO of the company, played golf', 2: 'A message is sent to the operator requesting the correct tape volume', 3: 'He was struck down by the brain disease last October', 4: 'In the last decades of his life, dukas became well known as a teacher of composition, with many famous student'}
