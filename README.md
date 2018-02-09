@@ -31,7 +31,7 @@ Install python 3.6 and ADD that to your PYTHONPATH
 Install pip
 
 ```
-Install the package manager for python by going at this link [Download pip](https://pip.pypa.io/en/stable/installing/)
+Install the package manager for python by going at this link [Download pip](https://pip.pypa.io/en/stable/installing/).
 ```
 
 Install nltk

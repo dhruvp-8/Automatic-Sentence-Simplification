@@ -79,6 +79,7 @@ for value in complex_sentences_d.items():
 	complex_sentences.append(temp2)
 
 ######################## Testing Ended ###############################
+
 s_complexity = []
 c_complexity = []
 
